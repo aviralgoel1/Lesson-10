@@ -1,2 +1,6 @@
 import os
-os.system("shutdown /s /t 1")
+command=input("Do you want to shutdown?")
+if command == "yes":
+    os.system("shutdown /p")
+else:
+    print ("Will not shutdown")
